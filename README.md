@@ -19,3 +19,14 @@ Uma vez criada a imagem, para executar o container basta executar, como administ
 
 $ docker run -d -p 8080:80 front
 Uma vez executando, para acessar o front-end, basta abrir o http://localhost:8080/#/ no navegador.
+
+
+API's externas utilizadas:
+
+- SheetJS: Essa API será utilizada para baixar em um arquivo em excel a lista de carregadores apresentados na página HTML.
+Sobre a API: É uma API pública, gratuita, sem licença de uso e que não é necessário um cadastro para utilização
+Mais informações sobre a API: https://github.com/SheetJS/sheetjs
+
+- ViaCEP: Essa API será utilizada para receber informações de endereço com base no CEP inserido pelo usuário
+Sobre a API: É uma API pública, gratuita, sem licença de uso e que não é necessário um cadastro para utilização
+Mais informações sobre a API:https://viacep.com.br/  
